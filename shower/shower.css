@@ -201,6 +201,13 @@ a {
     }
 }
 
+/* change header color to same as shout class*/
+/*
+light blue #0E1CCC #4240FF
+dark blue #2F357F #20377F
+rgb(59, 187, 153)
+rgb(40, 143, 116)
+*/
 .caption {
     margin-top: -24px;
     font-size: 24px;
@@ -208,8 +215,8 @@ a {
     margin-bottom: 1em;
     padding: 1.02em 0 .9em 1em;
     width: 100%;
-    background: #4caf50 -webkit-linear-gradient(315deg, #4caf50 50%, #449e48 50%)no-repeat;
-    background: #4caf50 linear-gradient(135deg, #4caf50 50%, #449e48 50%)no-repeat
+    background: rgb(59, 187, 153) -webkit-linear-gradient(315deg, rgb(59, 187, 153) 50%, rgb(40, 143, 116) 50%)no-repeat;
+    background: rgb(59, 187, 153) linear-gradient(135deg, rgb(59, 187, 153) 50%, rgb(40, 143, 116) 50%)no-repeat
 }
 
 @media (min-width:1168px) {
@@ -542,6 +549,13 @@ a {
     color: inherit
 }
 
+/* change color of shout slide class */
+/* blue color pallete I chose for TGVelo:
+light blue #0E1CCC #4240FF
+dark blue #2F357F #20377F
+rgb(59, 187, 153)
+rgb(40, 143, 116)
+*/
 .slide .shout:after {
     position: absolute;
     top: -300%;
@@ -549,8 +563,10 @@ a {
     bottom: -300%;
     left: 0;
     z-index: -1;
-    background: #4caf50 -webkit-linear-gradient(315deg, #4caf50 50%, #449e48 50%)no-repeat;
-    background: #4caf50 linear-gradient(135deg, #4caf50 50%, #449e48 50%)no-repeat;
+    /*background: #4caf50 -webkit-linear-gradient(315deg, #4caf50 50%, #449e48 50%)no-repeat;
+    background: #4caf50 linear-gradient(135deg, #4caf50 50%, #449e48 50%)no-repeat;*/
+    background: rgb(59, 187, 153) -webkit-linear-gradient(315deg, rgb(59, 187, 153) 50%, rgb(40, 143, 116) 50%)no-repeat;
+    background: rgb(59, 187, 153) linear-gradient(135deg, rgb(59, 187, 153) 50%, rgb(40, 143, 116) 50%)no-repeat;
     content: ''
 }
 

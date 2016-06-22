@@ -1,3 +1,7 @@
+#cover {
+    background-color: rgb(59, 187, 153);
+}
+
 #cover_rect {
     width: 70%;
     height: 80%;
@@ -34,6 +38,6 @@ ul, ol {
     color: blue;
 }
 
-.slide {
+/*.slide {
     padding: 8%;
-}
+}*/
